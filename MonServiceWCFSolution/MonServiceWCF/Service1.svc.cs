@@ -34,10 +34,22 @@ namespace MonServiceWCF
         {
             switch(id)
             {
-                case "chaussure": return 49.0f;break;
-                case "blouson": return 129.99f; break;
-                case "voiture": return 326.0f; break;
-                default : return 9999999.99f; break;
+                case "chaussure":
+                    {
+                        return 49.0f; break;
+                    }
+                case "blouson":
+                    {
+                        return 129.99f; break;
+                    }
+                case "voiture":
+                    {
+                        return 326.0f; break;
+                    }
+                default :
+                    {
+                        return 9999999.99f; break;
+                    }
             }
         }
     }
