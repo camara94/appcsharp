@@ -32,6 +32,7 @@ namespace MonServiceWCF
 
         public float GetPrice(String id)
         {
+            System.Threading.Thread.Sleep(15000);
             switch(id)
             {
                 case "chaussure":
