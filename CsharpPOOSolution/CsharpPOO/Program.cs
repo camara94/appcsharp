@@ -38,6 +38,7 @@ namespace CsharpPOO
             a.Entier = 9;
             Console.WriteLine(a.Entier);
             Console.ReadLine();
+            fdfdf
 
         }
     }
